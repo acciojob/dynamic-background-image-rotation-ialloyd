@@ -16,7 +16,3 @@ function changeBackgroundImage() {
     }
 }
 
-
-changeBackgroundImage();
-
-window.addEventListener("resize", changeBackgroundImage);
