@@ -6,6 +6,8 @@ var portraitImage = "https://photovideocreative.com/wordpress/wp-content/uploads
 
 window.addEventListener("resize", changeBackgroundImage);
 
+changeBackgroundImage()
+
 function changeBackgroundImage() {
     if (window.innerHeight > window.innerWidth) {
        
